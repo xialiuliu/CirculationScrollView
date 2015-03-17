@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "CirculationScrollView.h"
+@interface ViewController ()<CirculationScrollViewDelegate>
 
 @end
 
@@ -17,11 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    CirculationScrollView *scrollView = [[CirculationScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 240)];
+    scrollView.delegate = self;
+    scrollView.dataSource = @[@"welcome_1.png",@"welcome_2.png",@"welcome_3.png",@"welcome_1.png",@"welcome_2.png",@"welcome_3.png"];
+    [self.view addSubview:scrollView];
+    [scrollView reloadData];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)didSelectScrollViewAtIndex:(NSInteger)index
+{
+    NSLog(@"click %ld",(long)index);
 }
-
 @end

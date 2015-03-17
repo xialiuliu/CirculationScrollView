@@ -14,6 +14,7 @@
 		80B6DD261AB82B5C00B83E4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B6DD251AB82B5C00B83E4B /* Images.xcassets */; };
 		80B6DD291AB82B5C00B83E4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B6DD271AB82B5C00B83E4B /* LaunchScreen.xib */; };
 		80B6DD351AB82B5C00B83E4B /* CirculationScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B6DD341AB82B5C00B83E4B /* CirculationScrollViewTests.m */; };
+		80B6DD401AB82BB700B83E4B /* CirculationScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B6DD3F1AB82BB700B83E4B /* CirculationScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		80B6DD2E1AB82B5C00B83E4B /* CirculationScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirculationScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B6DD331AB82B5C00B83E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80B6DD341AB82B5C00B83E4B /* CirculationScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirculationScrollViewTests.m; sourceTree = "<group>"; };
+		80B6DD3E1AB82BB700B83E4B /* CirculationScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirculationScrollView.h; sourceTree = "<group>"; };
+		80B6DD3F1AB82BB700B83E4B /* CirculationScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirculationScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				80B6DD251AB82B5C00B83E4B /* Images.xcassets */,
 				80B6DD271AB82B5C00B83E4B /* LaunchScreen.xib */,
 				80B6DD181AB82B5C00B83E4B /* Supporting Files */,
+				80B6DD3E1AB82BB700B83E4B /* CirculationScrollView.h */,
+				80B6DD3F1AB82BB700B83E4B /* CirculationScrollView.m */,
 			);
 			path = CirculationScrollView;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80B6DD211AB82B5C00B83E4B /* ViewController.m in Sources */,
+				80B6DD401AB82BB700B83E4B /* CirculationScrollView.m in Sources */,
 				80B6DD1E1AB82B5C00B83E4B /* AppDelegate.m in Sources */,
 				80B6DD1B1AB82B5C00B83E4B /* main.m in Sources */,
 			);
